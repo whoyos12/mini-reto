@@ -47,7 +47,7 @@
 		D994E0421DB46B0A00ED4F80 /* mini-retoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mini-retoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D994E0461DB46B0A00ED4F80 /* mini_retoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mini_retoUITests.swift; sourceTree = "<group>"; };
 		D994E0481DB46B0A00ED4F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D994E0541DB46B2600ED4F80 /* JuegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JuegoDeMemoria.playground; path = ../JuegoDeMemoria.playground; sourceTree = "<group>"; };
+		D994E0541DB46B2600ED4F80 /* JuegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JuegoDeMemoria.playground; path = ../../JuegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,6 @@
 		D994E01A1DB46B0900ED4F80 = {
 			isa = PBXGroup;
 			children = (
-				D994E0541DB46B2600ED4F80 /* JuegoDeMemoria.playground */,
 				D994E0251DB46B0900ED4F80 /* mini-reto */,
 				D994E03A1DB46B0A00ED4F80 /* mini-retoTests */,
 				D994E0451DB46B0A00ED4F80 /* mini-retoUITests */,
@@ -99,6 +98,7 @@
 		D994E0251DB46B0900ED4F80 /* mini-reto */ = {
 			isa = PBXGroup;
 			children = (
+				D994E0541DB46B2600ED4F80 /* JuegoDeMemoria.playground */,
 				D994E0261DB46B0900ED4F80 /* AppDelegate.swift */,
 				D994E0281DB46B0900ED4F80 /* ViewController.swift */,
 				D994E02A1DB46B0900ED4F80 /* Main.storyboard */,
@@ -507,6 +507,7 @@
 				D994E04D1DB46B0A00ED4F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D994E04E1DB46B0A00ED4F80 /* Build configuration list for PBXNativeTarget "mini-retoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				D994E0501DB46B0A00ED4F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D994E0511DB46B0A00ED4F80 /* Build configuration list for PBXNativeTarget "mini-retoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				D994E0531DB46B0A00ED4F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
